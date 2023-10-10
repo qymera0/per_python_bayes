@@ -26,7 +26,6 @@ dependencies:
   - aws-sdk-cpp=1.11.156=h660de7d_4
   - babel=2.11.0=py311haa95532_0
   - backcall=0.2.0=pyhd3eb1b0_0
-  - bambi=0.12.0=pyhd8ed1ab_0
   - beautifulsoup4=4.12.2=py311haa95532_0
   - bleach=4.1.0=pyhd3eb1b0_0
   - brotli=1.1.0=hcfcfb64_1
@@ -44,7 +43,6 @@ dependencies:
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - cloudpickle=2.2.1=pyhd8ed1ab_0
   - colorama=0.4.6=py311haa95532_0
-  - comm=0.1.2=py311haa95532_0
   - cons=0.4.6=pyhd8ed1ab_0
   - contourpy=1.1.1=py311h005e61a_1
   - cryptography=41.0.3=py311h89fc84f_0
@@ -212,7 +210,6 @@ dependencies:
   - pyparsing=3.1.1=pyhd8ed1ab_0
   - pyrsistent=0.18.0=py311h2bbff1b_0
   - pysocks=1.7.1=py311haa95532_0
-  - pytensor=2.13.1=py311hf62ec03_0
   - pytensor-base=2.17.1=py311hf63dbb6_0
   - python=3.11.6=h2628c8c_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
@@ -282,13 +279,21 @@ dependencies:
   - zstd=1.5.5=h12be248_0
   - pip:
       - absl-py==2.0.0
+      - bambi==0.13.0.dev0
       - blackjax==1.0.0
       - chex==0.1.83
+      - comm==0.1.4
+      - importlib-metadata==6.8.0
+      - ipywidgets==8.1.1
       - jax==0.4.18
       - jaxlib==0.4.18
       - jaxopt==0.8.1
+      - jupyterlab-widgets==3.0.9
       - ml-dtypes==0.3.1
       - numpyro==0.13.2
       - opt-einsum==3.3.0
       - optax==0.1.7
       - tqdm==4.66.1
+      - watermark==2.4.3
+      - widgetsnbextension==4.0.9
+      - zipp==3.17.0
